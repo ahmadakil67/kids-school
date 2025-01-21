@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+header {
+    margin: 20px 140px 0 140px;
+    height: 575px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.header-title{
+    font-size: 56px;
+    font-weight: bold;
+}
+.empowering {
+    color: orange;
+}
+.students{
+    color: black;
+}
+.towards{
+    color: #01ACFD;
+}
+
+header p{
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+header button {
+    padding: 10px 47px;
+    border-radius: 12px;
+    color: #FFF;
+    background-color: #111;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
