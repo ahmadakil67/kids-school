@@ -4,7 +4,7 @@ header {
     height: 575px;
     display: flex;
     align-items: center;
-    gap: 50px;
+    gap: 30px;
 }
 .header-title{
     font-size: 56px;
@@ -34,9 +34,4 @@ header button {
     border: none;
     font-size: 20px;
     font-weight: bold;
-}
-
-img {
-    display: block;
-    max-width: 100%;
 }

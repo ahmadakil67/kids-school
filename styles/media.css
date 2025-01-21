@@ -26,10 +26,22 @@
     }
 
     header {
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
-
     header div{
         text-align: center;
+    }
+    .horizontal-line{
+        height: 10px;
+        border-bottom: 1px solid orange;
+    }
+}
+
+@media (min-width: 769px){
+    header {
+        flex-direction: row-reverse;
+    }
+    .horizontal-line{
+        display: none;
     }
 }
