@@ -1,4 +1,4 @@
-@media (max-width: 768px) {
+@media (max-width: 576px) {
     .nav-left {
         position: absolute;
         left: 0;
@@ -37,7 +37,7 @@
     }
 }
 
-@media (min-width: 769px){
+@media (min-width: 576px){
     header {
         flex-direction: row-reverse;
     }
@@ -45,3 +45,52 @@
         display: none;
     }
 }
+
+@media (max-width: 576px){
+    .curriculum{
+         margin-top: 700px;  /*BIG PROBLEM */
+    }
+    .card-container {
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+      }
+    
+      .card {
+        grid-template-columns: 1fr;
+      }
+      
+}
+
+@media (max-width: 576px) {
+    .container {
+      grid-template-columns: 1fr;
+    }
+  
+    .left-image {
+      display: none; 
+    }
+  
+    .right-images {
+      grid-template-columns: 1fr 1fr; 
+      grid-template-rows: repeat(2, 1fr); 
+    }
+  
+    .right-images img {
+      width: 100%; /* Make images 100% width of their container */
+      height: auto; /* Maintain aspect ratio */
+      object-fit: cover; /* Ensure images fill the container */
+    }
+  }
+
+  @media (max-width: 576px){
+    footer .parent {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer .parent div {
+        width: 100%;
+        text-align: center;
+    }
+  }
